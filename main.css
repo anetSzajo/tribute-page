@@ -17,13 +17,21 @@
 }
 
 .image-div{
-   
+   background: white;
+   margin: 20px;
+   border: 5px white;
+   padding: 8px;
 }
 
 img{
     width: 100%;
     filter: grayscale(85%);
     text-align: center;
+}
+
+#img-caption{
+    text-align: center;
+    margin-top: 10px;
 }
 
 footer{
