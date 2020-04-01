@@ -30,7 +30,9 @@ body {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
     filter: grayscale(85%);
     text-align: center;
 }
@@ -87,13 +89,7 @@ footer {
     background: rgb(219, 215, 215);
 }
 
-@media (min-width: 70rem) {
-    img {
-        width: 60%;
-        margin-top: 1rem;
-        position: relative;
-        left: 20%;
-    }
+@media (min-width: 40rem) {
     #tribute-info{
         width: 45%;
     }
