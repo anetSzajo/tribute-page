@@ -55,10 +55,19 @@ img{
 
 ul{
     text-align: left;
-    margin
+    margin-bottom: 3rem;
 }
 li {
     padding: 1rem;
+}
+
+#quatation-text{
+    text-align: justify;
+}
+
+#quatation-sign{
+    text-align: left;
+    margin-bottom: 3rem;
 }
 
 footer{
