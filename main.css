@@ -1,3 +1,6 @@
+body{
+    font-family: 'Dancing Script', cursive;
+}
 
 #main{
     margin: 3px;
@@ -8,9 +11,9 @@
 #title{
     padding: 3px;
     text-align: center;
-    font-family: 'Dancing Script', cursive;
     font-weight: 600;
 }
+
 #title h1 {
     margin-bottom: 16px;
     font-weight: 400;
@@ -19,6 +22,7 @@
 .image-div{
    background: white;
    margin: 20px;
+   margin-top: 8px;
    border: 5px white;
    padding: 8px;
 }
@@ -32,6 +36,29 @@ img{
 #img-caption{
     text-align: center;
     margin-top: 10px;
+}
+
+#tribute-info{
+    text-align:center;
+    margin: 20px;
+    padding: 20px;
+}
+
+#tribute-info h1 {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+#tribute-info p{
+    font-size: 0.8rem;
+}
+
+ul{
+    text-align: left;
+    margin
+}
+li {
+    padding: 1rem;
 }
 
 footer{
