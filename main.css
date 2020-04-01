@@ -1,14 +1,16 @@
-body{
+body {
+    font-size: 20px;
     font-family: 'Dancing Script', cursive;
+    margin: 22px 10px;
 }
 
-#main{
-    margin: 3px;
-    border: 3px bold rgb(153, 55, 55);
+#main {
+    border-radius: 8px;
     background: rgb(228, 223, 223);
 }
 
-#title{
+#title {
+    font-size: 27px;
     padding: 3px;
     text-align: center;
     font-weight: 700;
@@ -19,7 +21,7 @@ body{
     font-weight: 400;
 }
 
-.image-div{
+.image-div {
    background: white;
    margin: 20px;
    margin-top: 8px;
@@ -27,18 +29,18 @@ body{
    padding: 8px;
 }
 
-img{
+img {
     width: 100%;
     filter: grayscale(85%);
     text-align: center;
 }
 
-#img-caption{
+#img-caption {
     text-align: center;
     margin-top: 10px;
 }
 
-#tribute-info{
+#tribute-info {
     text-align:center;
     width: 75%;
     margin: auto;
@@ -46,15 +48,11 @@ img{
 }
 
 #tribute-info h1 {
-    font-size: 1.2rem;
+    font-size: 24px;
     margin-bottom: 3rem;
 }
 
-#tribute-info p{
-    font-size: 0.8rem;
-}
-
-ul{
+ul {
     text-align: left;
     margin-bottom: 3rem;
 }
@@ -63,25 +61,40 @@ li {
     padding: 1rem;
 }
 
-span{
+span{ 
     font-weight: 700;
 }
 
-#quatation-text{
+#quatation-text {
     text-align: justify;
+    padding: 0 20px;
 }
 
-#quatation-sign{
+#quatation-sign {
     text-align: left;
     margin-bottom: 2rem;
+    padding: 0 20px;
 }
 
-#wikipedia-link{
+#wikipedia-link {
+    font-size: 24px;
     font-weight: 700;
     text-align: center;
-    margin: 0 20px 2rem 20px;
+    margin: 2rem 20px 3rem 20px;
 }
 
-footer{
+footer {
     background: rgb(219, 215, 215);
+}
+
+@media (min-width: 70rem) {
+    img {
+        width: 60%;
+        margin-top: 1rem;
+        position: relative;
+        left: 20%;
+    }
+    #tribute-info{
+        width: 45%;
+    }
 }
