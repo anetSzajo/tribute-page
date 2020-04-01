@@ -1,0 +1,9 @@
+header{
+    background: rgb(187, 186, 186);
+    z-index:1;
+    padding: 3px;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 16px;
+}
